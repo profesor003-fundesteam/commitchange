@@ -55,7 +55,3 @@ Hébrail, G. y Berard, A. (2006). *Individual Household Electric Power Consumpti
 
 ## Equipo
 Commint4Change, Panamá. Datos: Hébrail y Berard, UCI Machine Learning Repository (vivienda en Sceaux, Francia).
-<<<<<<< HEAD
-=======
-
->>>>>>> d3312daf0446fbecbd01fa5ed5dfcec4df239da5

@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+pillow>=10.0
+jupyter>=1.0
+google-generativeai>=0.7   # solo para la llamada a Gemini
+python-dotenv>=1.0         # para leer GEMINI_API_KEY desde .env

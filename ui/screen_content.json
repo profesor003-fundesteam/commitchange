@@ -1,0 +1,28 @@
+{
+  "_ayuda": "Edita SOLO este archivo cuando el análisis esté listo y ejecuta: python ui/make_screens.py. Cambia illustrative a false cuando los datos sean reales.",
+  "illustrative": false,
+  "household_name": "Vivienda en Sceaux, Francia",
+  "period": "Mayo 2007",
+  "peak": {
+    "window": "21:00-22:00",
+    "days_observed": "12",
+    "days_total": "31"
+  },
+  "screen1": {
+    "question": "¿En qué momento del día usamos más electricidad?",
+    "result": "Tu hogar usó más electricidad entre las 21:00 y las 22:00, con 2.25 kWh en promedio."
+  },
+  "screen2": {
+    "question": "Durante ese pico, ¿qué parte de la casa conviene revisar primero?",
+    "top_group": "Calentador de agua y aire acondicionado",
+    "top_kwh": "0.55 kWh (24.6%)",
+    "result": "Es el circuito medido que más aportó durante la franja pico.",
+    "note": "Otros usos del hogar (1.16 kWh, 51.7%) reúne lo que los tres submedidores no miden; no se puede atribuir a un equipo."
+  },
+  "screen3": {
+    "question": "¿Qué podemos probar y cómo sabremos si funcionó?",
+    "found": "A las 21:00, el circuito de calentador de agua y aire acondicionado aportó 0.55 kWh, el mayor entre los circuitos medidos.",
+    "try": "Comprueba si ese consumo coincide con el calentador de agua. Si es así, prueba acortar un uso de agua caliente de esa hora.",
+    "check": "Compara los kWh de ese circuito entre las 21:00 y las 22:00 en dos semanas: una con el cambio y otra sin él."
+  }
+}

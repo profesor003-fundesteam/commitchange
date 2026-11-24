@@ -1,0 +1,35 @@
+{
+    "proyecto": "WattLens",
+    "tipo_datos": "Mediciones historicas reales",
+    "vivienda": "Vivienda francesa",
+    "periodo": "2007-05-01 a 2007-05-31",
+    "mediciones": 44640,
+    "energia_mensual_kwh": 733.48,
+    "hora_pico": 21,
+    "energia_promedio_pico_kwh": 2.2547,
+    "dias_analizados": 31,
+    "dias_con_hora_pico": 12,
+    "frecuencia_pico_porcentaje": 38.71,
+    "consumo_circuitos_pico_kwh": {
+        "Cocina": 0.3796,
+        "Lavanderia": 0.1563,
+        "Climatizacion y agua caliente": 0.5543,
+        "Otros consumos": 1.1646
+    },
+    "porcentajes_circuitos": {
+        "Cocina": 16.83,
+        "Lavanderia": 6.93,
+        "Climatizacion y agua caliente": 24.58,
+        "Otros consumos": 51.65
+    },
+    "observacion": "Los resultados describen patrones historicos. No permiten atribuir el consumo a un aparato especifico ni asegurar un porcentaje de ahorro.",
+    "calidad_datos": {
+        "registros_duplicados": 0,
+        "valores_faltantes": 0,
+        "valores_negativos": 0,
+        "intervalos_irregulares": 0,
+        "diferencias_energia": 2,
+        "diferencia_maxima_kwh": 0.00036667,
+        "observacion": "Se detectaron 2 registros con diferencias de coherencia energetica superiores a la tolerancia de 0.000001 kWh. Se conservaron las mediciones originales."
+    }
+}

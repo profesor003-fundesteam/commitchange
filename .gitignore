@@ -1,0 +1,11 @@
+# Datos pesados: se descargan siguiendo data/README.md
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+*.pyc
+clear/

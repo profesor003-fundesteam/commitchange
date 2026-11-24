@@ -1,4 +1,4 @@
-# WattLens - Analisis del consumo electrico real
+# WattWise - Analisis del consumo electrico real
 # Vivienda francesa - Mayo de 2007
 
 import pandas as pd
@@ -73,7 +73,7 @@ print("\nVALIDACION INICIAL SUPERADA")
 consumo_mensual = datos["energy_kwh"].sum()
 
 # Mostrar los resultados
-print("\nWATTLENS - ANALISIS REAL")
+print("\nWATTWise - ANALISIS REAL")
 
 print("Cantidad de mediciones:", len(datos))
 
@@ -113,7 +113,7 @@ print(f"Hora pico: {hora_pico}:00")
 
 print(f"Energia promedio: {energia_pico:.4f} kWh")
 
-# Grafica de consumo horario - WattLens
+# Grafica de consumo horario - WattWise
 
 plt.figure(figsize=(11, 6))
 
@@ -154,7 +154,7 @@ plt.annotate(
 
 
 # Titulo y ejes
-plt.title("WattLens - Hourly Electricity Use, May 2007")
+plt.title("WattWise - Hourly Electricity Use, May 2007")
 plt.xlabel("Time of day")
 plt.ylabel("Average hourly energy use (kWh)")
 
@@ -183,7 +183,7 @@ promedio_circuitos_pico = datos_hora_pico[
 print("\nPROMEDIO DE CONSUMO POR CIRCUITO EN LA HORA PICO:")
 print(promedio_circuitos_pico.round(4))
 
-# Segunda grafica real de WattLens
+# Segunda grafica real de WattWise
 # Consumo promedio de los circuitos en la hora pico
 
 nombres_circuitos = [
@@ -213,7 +213,7 @@ plt.bar_label(
 
 # Agregar titulo y etiquetas
 plt.title(
-    f"WattLens - Inside the Peak ({hora_pico}:00-{hora_pico + 1}:00)"
+    f"WattWise - Inside the Peak ({hora_pico}:00-{hora_pico + 1}:00)"
 )
 
 plt.xlabel("Household circuits")
@@ -287,7 +287,7 @@ porcentajes = {
 
 # Crear el resumen estadistico
 resumen_real = {
-    "proyecto": "WattLens",
+    "proyecto": "WattWise",
     "tipo_datos": "Mediciones historicas reales",
     "vivienda": "Vivienda francesa",
 "periodo": f"{datos['timestamp'].min():%Y-%m-%d} a {datos['timestamp'].max():%Y-%m-%d}",
